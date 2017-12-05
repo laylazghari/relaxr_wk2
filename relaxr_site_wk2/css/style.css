@@ -1,0 +1,190 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #d3d3d3;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+	font-family:  'Open Sans', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	width: 1024px;
+
+}
+
+div {
+	border: 0 solid black;
+	padding: 1px;
+
+}
+
+footer {
+	height: 200px;
+	background-color: #121212;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+	text-align: center
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 500px;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+}
+
+.benefits {
+	background-color: #f0efef;
+	height: 300px;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+
+}
+.testimonial {
+	background-color: #f0efef;
+	height: 270px;
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+
+}
+
+.signup {
+	background-color: #f9e42e;
+	height: 90px;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+}
+
+section h1 {
+	color: #f0efef;
+	font-weight: extra bold
+}
+#button_one {
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #f9e52e;
+	text-align: center;
+	padding: 7px 50px;
+	margin: 3% 40%;
+}
+
+#button_two {
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #033048;
+	text-align: center;
+	padding: 7px 50px;
+	margin: 3% 40%;
+	color: white;
+}
+
+
+h3 {
+	margin-left: 50px;
+	font-weight: 600;
+	color: #606161;
+}
+ul {
+	font-weight: 300;
+	color: #606161;
+	margin: 20px 5%;
+	line-height: 30px;
+}
+
+#benefits {
+ 	font-weight:300;
+ 	color: #606161;
+ 	margin: 20px 7%;
+}
+
+#testimonial {
+	font-weight: 300;
+ 	font-style: italic;
+ 	color: #fff;
+  	margin: 60px 30%;
+}
+.name {
+	font-weight: 600;
+	font-style: normal;
+
+}
+.strapline {
+	font-weight: 400;
+	color: #fff;
+	padding-left: 
+}
+
+footer h1 {
+	color:#f9e42e;
+	margin: 3% 44%;
+	font-weight: 600;
+}
+
+
+footer p {
+	margin: 0 40%;
+	
+}
+
+
+
+
+
+
+
